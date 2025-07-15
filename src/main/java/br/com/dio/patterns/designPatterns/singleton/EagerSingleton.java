@@ -1,4 +1,4 @@
-package br.com.dio.patterns.designPatterns;
+package br.com.dio.patterns.designPatterns.singleton;
 
 public class EagerSingleton {
 

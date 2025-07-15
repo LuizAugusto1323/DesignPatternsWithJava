@@ -1,8 +1,8 @@
 package br.com.dio.patterns.test.singleton;
 
-import br.com.dio.patterns.designPatterns.EagerSingleton;
-import br.com.dio.patterns.designPatterns.LazyHolderSingleton;
-import br.com.dio.patterns.designPatterns.LazySingleton;
+import br.com.dio.patterns.designPatterns.singleton.EagerSingleton;
+import br.com.dio.patterns.designPatterns.singleton.LazyHolderSingleton;
+import br.com.dio.patterns.designPatterns.singleton.LazySingleton;
 
 public class SingletonTest {
 
