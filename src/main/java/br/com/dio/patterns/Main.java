@@ -1,5 +1,6 @@
 package br.com.dio.patterns;
 
+import br.com.dio.patterns.test.facade.FacadeTest;
 import br.com.dio.patterns.test.singleton.SingletonTest;
 import br.com.dio.patterns.test.strategy.StrategyTest;
 
@@ -14,5 +15,11 @@ public class Main {
         // teste do STRATEGY
         StrategyTest strategyTest = new StrategyTest();
         strategyTest.initTest();
+
+        System.out.println("*******************************");
+
+        // teste do FACADE
+        FacadeTest facadeTest = new FacadeTest();
+        facadeTest.initTest();
     }
 }
