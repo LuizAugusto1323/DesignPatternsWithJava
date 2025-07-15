@@ -1,5 +1,6 @@
 package br.com.dio.patterns;
 
+import br.com.dio.patterns.test.adapter.AdapterTest;
 import br.com.dio.patterns.test.builder.BuilderTest;
 import br.com.dio.patterns.test.facade.FacadeTest;
 import br.com.dio.patterns.test.singleton.SingletonTest;
@@ -26,7 +27,13 @@ public class Main {
         System.out.println("*******************************");
 
         // teste do BUILDER
-        BuilderTest  builderTest = new BuilderTest();
+        BuilderTest builderTest = new BuilderTest();
         builderTest.initTest();
+
+        System.out.println("*******************************");
+
+        // teste do ADAPTER
+        AdapterTest adapterTest = new AdapterTest();
+        adapterTest.initTest();
     }
 }
