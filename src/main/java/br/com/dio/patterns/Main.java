@@ -3,6 +3,7 @@ package br.com.dio.patterns;
 import br.com.dio.patterns.test.adapter.AdapterTest;
 import br.com.dio.patterns.test.builder.BuilderTest;
 import br.com.dio.patterns.test.facade.FacadeTest;
+import br.com.dio.patterns.test.observer.ObserverTest;
 import br.com.dio.patterns.test.singleton.SingletonTest;
 import br.com.dio.patterns.test.strategy.StrategyTest;
 
@@ -35,5 +36,11 @@ public class Main {
         // teste do ADAPTER
         AdapterTest adapterTest = new AdapterTest();
         adapterTest.initTest();
+
+        System.out.println("*******************************");
+
+        // teste do OBSERVER
+        ObserverTest observerTest = new ObserverTest();
+        observerTest.initTest();
     }
 }
